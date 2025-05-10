@@ -1,0 +1,99 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+/* ===== SEARCH PAGE ===== */
+.search-page input {
+  padding: 12px;
+  width: 70%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.search-page button {
+  padding: 12px 20px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-page button:hover {
+  background: #45a049;
+}
+
+/* ===== RESULTS PAGE ===== */
+.song-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.song-list li {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.song-list li:hover {
+  background: #f8f8f8;
+}
+
+.song-category {
+  color: #666;
+  font-size: 0.85em;
+  background: #f0f0f0;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+/* ===== SONG PAGE ===== */
+.back-button {
+  background: #f0f0f0;
+  border: none;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.back-button:hover {
+  background: #e0e0e0;
+}
+
+.song-page table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.song-page td {
+  padding: 8px 0;
+  vertical-align: top;
+}
+
+/* ===== UTILITY CLASSES ===== */
+.loading {
+  color: #666;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.error {
+  color: #d32f2f;
+  padding: 10px;
+  background: #ffebee;
+  border-radius: 4px;
+}
