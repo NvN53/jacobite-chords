@@ -32,10 +32,11 @@ const ResultsPage = () => {
           {results.map((song) => (
             <li 
               key={song.id}
+              style={{ display: 'flex', gap: '12px' }}
               onClick={() => navigate(`/song/${song.filename}`)}
             >
               <span className="song-title">{song.title}</span>
-              <span className="song-category">{song.category}</span>
+              <span style={{ marginLeft: '10px' }} className="song-category">{song.category}</span>
             </li>
           ))}
         </ul>
