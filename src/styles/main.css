@@ -110,7 +110,7 @@ button {
 
 /* === FORCE LYRIC STYLES === */
 .song-container table td {
-  color: #000000 !important; /* Pure black */
+  color: #ffffff !important; /* Pure black */
   font-size: 16px !important;
   line-height: 2 !important;
   font-family: Arial, sans-serif !important;
