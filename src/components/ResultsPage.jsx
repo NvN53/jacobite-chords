@@ -5,7 +5,7 @@ import '../styles/main.css';
 // Mock database (replace with real API calls later)
 const SONGS = [
   { id: 1, filename: 'twinkle.pro', title: 'Twinkle Twinkle Little Star', category: 'General' },
-  { id: 2, filename: 'moran-etho.pro', title: 'Moran Etho', category: 'Holy Qurbana' },
+  { id: 2, filename: 'velivu.pro', title: 'Velivu Niranjoreesho', category: 'Holy Qurbana' },
   { id: 3, filename: 'shlomo.pro', title: 'Shlomo', category: 'Hymns' },
 ];
 

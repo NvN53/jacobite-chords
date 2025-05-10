@@ -97,3 +97,27 @@ button {
   background: #ffebee;
   border-radius: 4px;
 }
+
+/* === FORCE CHORD STYLES === */
+.song-container table td span.chord {
+  color: #ff0000 !important; /* Bright red */
+  font-weight: bold !important;
+  font-size: 14px !important;
+  position: relative !important;
+  top: -8px !important;
+  padding-right: 4px !important;
+}
+
+/* === FORCE LYRIC STYLES === */
+.song-container table td {
+  color: #000000 !important; /* Pure black */
+  font-size: 16px !important;
+  line-height: 2 !important;
+  font-family: Arial, sans-serif !important;
+}
+
+/* === BACKGROUND (optional) === */
+.song-container {
+  background-color: #f0f0f0 !important;
+  padding: 20px !important;
+}

@@ -19,10 +19,11 @@ const SearchPage = () => {
       <form onSubmit={handleSearch}>
         <input
           type="text"
+          id="search-input"  
+          name="searchQuery"  
+          placeholder="Search songs..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search for a song (e.g. 'Moran Etho')"
-          autoFocus
         />
         <button type="submit">Search</button>
       </form>
