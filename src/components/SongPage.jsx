@@ -19,7 +19,8 @@ const SongPage = () => {
         
         const parser = new chordsheetjs.ChordProParser();
         const song = parser.parse(text);
-        const formatter = new chordsheetjs.HtmlTableFormatter();
+        const formatter = new chordsheetjs.HtmlTableFormatter({
+          renderParagraph: () => '<tr class="paragraph-spacer"><td colspan="2"></td></tr>'});
         setSongHtml(formatter.format(song));
       } catch (err) {
         setError(err.message);
